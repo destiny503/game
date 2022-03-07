@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,16 +12,25 @@
             background-color: rgb(15, 15, 15);
             display: flex;
         }
+
         div {
             margin: auto;
         }
+
         canvas {
             height: 100vh;
         }
     </style>
 </head>
+
 <body>
     <div id="game"></div>
+    <script>
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+            window.stop()
+        }
+    </script>
     <script src="./js/game.js" type="module"></script>
 </body>
+
 </html>
