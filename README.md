@@ -2,4 +2,4 @@
 
 Управление: ←, →, ↑, ↓
 
-[поиграть](https://tsartsartsar.github.io/game/)
+[поиграть](https://destiny503.github.io/game/)
